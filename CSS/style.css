@@ -24,6 +24,10 @@ Default: 1
 - Accents:
 - Greys: #555 , #333
 
+-- 06- Tint and shades website
+
+maketintandshades.com
+
 -- 06- Shadows:
 
 -- 07- Border-radius:
@@ -65,13 +69,17 @@ body {
 html {
   font-size: 62.5%;
 }
+.section-hero{
+  background-color: #fae5d3;
+  padding: 9.6rem 0;
+}
 .hero {
   margin: 0 auto;
   max-width: 130rem;
   display: grid;
   grid-template-columns: 1fr 1fr; 
-  background-color: red;
   align-items: center;
+  gap: 9.6rem;
 }
 .heading-primary {
   font-size: 5.2rem;
@@ -79,14 +87,15 @@ html {
   color: #333;
   font-weight: 700;
   letter-spacing: -0.5px;
-  margin-bottom: 9.6rem;
+  margin-bottom: 3.2rem;
 }
 
 .hero-description{
-  font-size: 3.2rem;
-  margin-bottom: 9.6rem;
+  font-size: 2rem;
+  margin-bottom: 4.8rem;
 line-height: 1.5;
 }
+.btn:link visited{}
 .hero-img {
   max-width: 100%;
 }
