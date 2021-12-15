@@ -80,7 +80,6 @@ html {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 9.6rem;
- 
 }
 .heading-primary {
   font-size: 5.2rem;
@@ -100,6 +99,7 @@ html {
 .btn:visited {
   display: inline-block;
   background-color: #e67e22;
+  font-weight: 600;
   padding: 1.6rem 3.2rem;
   font-size: 2rem;
   color: #fff;
