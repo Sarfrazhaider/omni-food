@@ -19,8 +19,8 @@ Default: 1
 -- 05- Colors:
 
 - Primary: #e67e22
-- Tint: #cf711f
-- Shades:
+- Tint: #fae5d3
+- Shades: #cf711f
 - Accents:
 - Greys: #555 , #333
 
@@ -80,6 +80,7 @@ html {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 9.6rem;
+  padding: 0 4rem;
 }
 .heading-primary {
   font-size: 5.2rem;
@@ -127,4 +128,32 @@ html {
 }
 .hero-img {
   max-width: 100%;
+}
+.delivered-meals {
+  display: flex;
+  margin-top: 8rem;
+  align-items: center;
+  gap: 1.6rem;
+}
+.delivered-imgs{
+  display: flex;
+  
+}
+.delivered-imgs img{
+  height: 4.2rem;
+  width: 4.2rem;
+  border-radius: 50%;
+  border: 3px solid #fae5d3;
+  margin-right: -1.6rem;
+}
+.delivered-imgs img:last-child{
+  margin-right: 0;
+}
+.delivered-text{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.delivered-text span{
+  color: #cf711f;
+  font-weight: 700;
 }
