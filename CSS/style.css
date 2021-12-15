@@ -6,11 +6,11 @@
 
 -- 02- Font Weight:
 
-Default: 400
+Default: 400, medium=500, semibold=600, bold=700
 
 -- 03- Line Height:
 
-Default: 1
+Default: 1. 1.6, 1.05
 
 -- 04- Spacing System:
 
@@ -30,7 +30,7 @@ maketintandshades.com
 
 -- 06- Shadows:
 
--- 07- Border-radius:
+-- 07- Border-radius: 9px
 
 -- 08- Whitespace:
 
@@ -135,6 +135,44 @@ html {
 
 /* ************************************ */
 
+/* Navigation */
+
+/* ************************************ */
+
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 3.2rem;
+  cursor: pointer;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  color: #fff;
+  border-radius: 9px;
+  background-color: #e67e22;
+}
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+
+/* ************************************ */
+
 /* Hero Section */
 
 /* ************************************ */
@@ -150,7 +188,7 @@ html {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 9.6rem;
-  padding: 0 5.5rem;
+  padding: 0 3.2rem;
 }
 
 .hero-description {
