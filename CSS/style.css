@@ -100,6 +100,7 @@ html {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+
 .heading-primary,
 .heading-secondary,
 .heading-teritiary {
@@ -161,28 +162,30 @@ html {
   background-color: #fae5d3;
   box-shadow: inset 0 0 0 3px #fff;
 }
-.link:link, .link:visited{
-  color:#e67e22;
+.link:link,
+.link:visited {
+  color: #e67e22;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   display: inline-block;
   padding-bottom: 2px;
   transition: all 0.3s;
 }
-.link:hover, .link:active{
+.link:hover,
+.link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent;
 }
 /* HELPER/SETTING CLASS */
 
-.center-text{
+.center-text {
   text-align: center;
 }
 
-strong{
+strong {
   font-weight: 500;
 }
-.margin-bottom-md{
+.margin-bottom-md {
   margin-bottom: 4.8rem;
 }
 /* ************************************ */
@@ -301,10 +304,10 @@ strong{
 /* Featured Section */
 
 /* ************************************ */
-.section-featured{
+.section-featured {
   padding: 4.8rem 0 3.2rem 0;
 }
-.heading-featured-in{
+.heading-featured-in {
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
@@ -313,12 +316,12 @@ strong{
   font-weight: 500;
   color: #888;
 }
-.logos{
+.logos {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.logos img{
+.logos img {
   height: 3.2rem;
   filter: brightness(0);
   opacity: 50%;
@@ -376,92 +379,146 @@ strong{
 /* Meals Section */
 
 /* ************************************ */
-.section-meals{
+.section-meals {
   padding: 9.6rem 0;
 }
-.meal-title{
+.meal-title {
   font-size: 2rem;
   font-weight: 600;
   color: #333;
   margin-bottom: 3.2rem;
 }
-.meal-attributes{
+.meal-attributes {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-.meal-attribute{
+.meal-attribute {
   font-size: 1.8rem;
   display: flex;
   align-items: center;
   gap: 1.6rem;
 }
-.meal-img{
+.meal-img {
   width: 100%;
 }
-.meal-icon{
+.meal-icon {
   height: 2.4rem;
   width: 2.4rem;
   color: #e67e22;
 }
-.tag{
+.tag {
   display: inline-block;
   font-size: 1.2rem;
   padding: 0.4rem 0.8rem;
-  
+
   text-transform: uppercase;
   color: #333;
   border-radius: 100px;
   font-weight: 600;
 }
-.tag--vagetarian{
+.tag--vagetarian {
   background-color: #51cf66;
 }
-.tag--vegan{
-  background-color:#94d82d;
+.tag--vegan {
+  background-color: #94d82d;
 }
-.tag--paleo{
+.tag--paleo {
   background-color: #ffd43b;
 }
 
-.meals{
+.meals {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
-  overflow:hidden;
+  overflow: hidden;
   transition: all 0.4s;
 }
-.meals:hover{
+.meals:hover {
   transform: translateY(-1.2rem);
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.06);
 }
-.meal-tags{
+.meal-tags {
   margin-bottom: 1.2rem;
-  display:flex;
+  display: flex;
   gap: 0.4rem;
 }
-.meal-content{
-  padding: 3.2rem 4.8rem 4.8rem 4.8rem; 
+.meal-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
-.all-recipts{
-  font-size:1.8rem;
+.all-recipts {
+  font-size: 1.8rem;
   text-align: center;
 }
-.list{
-list-style:none;
-display: flex;
-flex-direction: column;
-gap: 1.6rem;
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 }
-.list-item{
+.list-item {
   font-size: 1.8rem;
   list-style: none;
   display: flex;
   align-items: center;
   gap: 1.6rem;
 }
-.list-icon{
-color: #e67e22;
-width: 3rem;
-height: 3rem;
+.list-icon {
+  color: #e67e22;
+  width: 3rem;
+  height: 3rem;
 }
+
+/* ************************************ */
+
+/* Testimonial Section */
+
+/* ************************************ */
+
+.section-testimonials{
+  background-color: #fae5d3;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+.testimonial-container{
+ padding: 9.6rem;
+}
+.testimonials{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8.2rem;
+}
+.testimonial-img{
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+.testimonial-text{
+font-size: 1.8rem;
+line-height: 1.8;
+margin-bottom: 1.6rem;
+}
+.testimonial-name{
+font-size: 1.7rem;
+color: #6F6F6F;
+}
+.gallery figure{
+  overflow:hidden;
+}
+.gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+.gallery img{
+  display:block;
+  width: 100%;
+  transition: all 0.4s;
+}
+.gallery img:hover{
+transform: scale(1.1);
+}
+
